@@ -1,0 +1,21 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Revealer</title>
+  <link rel="stylesheet" href="revealer.css">
+</head>
+<body>
+
+<canvas id="canvas" data-reveal-text="Hello"></canvas>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.0/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+<script src="revealer.js"></script>
+
+<script>
+  $(window).ready(function() {
+    $("#canvas").revealer();
+  });
+</script>
+</body>
+</html>

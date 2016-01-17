@@ -1,0 +1,31 @@
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#canvas {
+  height: 100%;
+  z-index: 10;
+  background-color: #00004C;
+}
+
+#text-canvas {
+  height: 105px;
+  // Uncomment to preview reveal text
+  // z-index: 20;
+}
+
+#reveal-text-btn {
+  position: absolute;
+  z-index: 20;
+  left: 50%;
+  top: 50%;
+  margin: -20px 0 0 -94px;
+  background-color: #F6F6FB;
+  border: none;
+  padding: 10px 12px 12px;
+  font-size: 16px;
+  border-radius: 5px;
+}
